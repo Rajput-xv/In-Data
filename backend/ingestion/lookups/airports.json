@@ -1,0 +1,17 @@
+[
+  {"iata": "FRA", "name": "Frankfurt", "lat": 50.0379, "lon": 8.5622},
+  {"iata": "MUC", "name": "Munich", "lat": 48.3538, "lon": 11.7861},
+  {"iata": "HAM", "name": "Hamburg", "lat": 53.6304, "lon": 9.9882},
+  {"iata": "LHR", "name": "London Heathrow", "lat": 51.4700, "lon": -0.4543},
+  {"iata": "AMS", "name": "Amsterdam Schiphol", "lat": 52.3105, "lon": 4.7683},
+  {"iata": "CDG", "name": "Paris CDG", "lat": 49.0097, "lon": 2.5479},
+  {"iata": "BCN", "name": "Barcelona", "lat": 41.2974, "lon": 2.0833},
+  {"iata": "MAD", "name": "Madrid Barajas", "lat": 40.4936, "lon": -3.5668},
+  {"iata": "JFK", "name": "New York JFK", "lat": 40.6413, "lon": -73.7781},
+  {"iata": "SFO", "name": "San Francisco", "lat": 37.6213, "lon": -122.3790},
+  {"iata": "BLR", "name": "Bangalore Kempegowda", "lat": 13.1986, "lon": 77.7066},
+  {"iata": "BOM", "name": "Mumbai Chhatrapati Shivaji", "lat": 19.0896, "lon": 72.8656},
+  {"iata": "DEL", "name": "Delhi Indira Gandhi", "lat": 28.5562, "lon": 77.1000},
+  {"iata": "SIN", "name": "Singapore Changi", "lat": 1.3644, "lon": 103.9915},
+  {"iata": "DXB", "name": "Dubai International", "lat": 25.2532, "lon": 55.3657}
+]

@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+/*
+ * The dashboard reads like a control surface, not a marketing page.
+ * Dense, monochrome, generous whitespace only between sections.
+ * One accent colour (amber for flagged, emerald for approved, rose for rejected)
+ * driven entirely by status - no decorative colour.
+ */
+
+@theme {
+  --color-canvas: oklch(0.985 0.005 80);
+  --color-ink: oklch(0.22 0.02 250);
+  --color-muted: oklch(0.55 0.015 250);
+  --color-line: oklch(0.91 0.01 250);
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "Cascadia Mono", monospace;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+/* Make tables snap to a tight grid. */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}

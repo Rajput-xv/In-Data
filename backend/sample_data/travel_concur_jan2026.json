@@ -1,0 +1,109 @@
+{
+  "Items": [
+    {
+      "Id": "CONCUR-EXP-2026-00001",
+      "ExpenseTypeName": "Airfare",
+      "TransactionDate": "2026-01-08",
+      "TransactionAmount": "412.50",
+      "TransactionCurrencyCode": "EUR",
+      "VendorDescription": "Lufthansa",
+      "OriginIataCode": "HAM",
+      "DestinationIataCode": "FRA",
+      "Description": "DTM kickoff travel"
+    },
+    {
+      "Id": "CONCUR-EXP-2026-00002",
+      "ExpenseTypeName": "Airfare",
+      "TransactionDate": "2026-01-09",
+      "TransactionAmount": "780.20",
+      "TransactionCurrencyCode": "EUR",
+      "VendorDescription": "KLM",
+      "OriginIataCode": "FRA",
+      "DestinationIataCode": "AMS",
+      "Description": "Client onsite"
+    },
+    {
+      "Id": "CONCUR-EXP-2026-00003",
+      "ExpenseTypeName": "Hotel",
+      "TransactionDate": "2026-01-09",
+      "TransactionAmount": "612.00",
+      "TransactionCurrencyCode": "EUR",
+      "VendorDescription": "NH Amsterdam Centre",
+      "LocationName": "Amsterdam, NL",
+      "CheckInDate": "2026-01-09",
+      "CheckOutDate": "2026-01-12",
+      "Description": "Client onsite stay"
+    },
+    {
+      "Id": "CONCUR-EXP-2026-00004",
+      "ExpenseTypeName": "Car Rental",
+      "TransactionDate": "2026-01-09",
+      "TransactionAmount": "215.40",
+      "TransactionCurrencyCode": "EUR",
+      "VendorDescription": "Sixt Schiphol",
+      "LocationName": "Amsterdam Schiphol",
+      "Description": "Rental Mon-Wed"
+    },
+    {
+      "Id": "CONCUR-EXP-2026-00005",
+      "ExpenseTypeName": "Airfare",
+      "TransactionDate": "2026-01-14",
+      "TransactionAmount": "1450.00",
+      "TransactionCurrencyCode": "USD",
+      "VendorDescription": "United Airlines",
+      "OriginIataCode": "FRA",
+      "DestinationIataCode": "JFK",
+      "Description": "NA quarterly review"
+    },
+    {
+      "Id": "CONCUR-EXP-2026-00006",
+      "ExpenseTypeName": "Hotel",
+      "TransactionDate": "2026-01-14",
+      "TransactionAmount": "892.55",
+      "TransactionCurrencyCode": "USD",
+      "VendorDescription": "Hilton Midtown",
+      "LocationName": "New York, NY",
+      "CheckInDate": "2026-01-17",
+      "CheckOutDate": "2026-01-14",
+      "Description": "Date entry error to demo PERIOD_INVALID"
+    },
+    {
+      "Id": "CONCUR-EXP-2026-00007",
+      "ExpenseTypeName": "Airfare",
+      "TransactionDate": "2026-01-20",
+      "TransactionAmount": "298.10",
+      "TransactionCurrencyCode": "EUR",
+      "VendorDescription": "EasyJet",
+      "OriginIataCode": "MUC",
+      "DestinationIataCode": "ZZZ",
+      "Description": "Destination unresolved on purpose"
+    },
+    {
+      "Id": "CONCUR-EXP-2026-00008",
+      "ExpenseTypeName": "Taxi",
+      "TransactionDate": "2026-01-21",
+      "TransactionAmount": "48.30",
+      "TransactionCurrencyCode": "EUR",
+      "VendorDescription": "FreeNow",
+      "LocationName": "Hamburg HBF -> Office"
+    },
+    {
+      "Id": "CONCUR-EXP-2026-00009",
+      "ExpenseTypeName": "Rail",
+      "TransactionDate": "2026-01-22",
+      "TransactionAmount": "127.80",
+      "TransactionCurrencyCode": "EUR",
+      "VendorDescription": "Deutsche Bahn",
+      "LocationName": "HAM -> MUC"
+    },
+    {
+      "Id": "CONCUR-EXP-2026-00010",
+      "ExpenseTypeName": "Meals",
+      "TransactionDate": "2026-01-22",
+      "TransactionAmount": "62.40",
+      "TransactionCurrencyCode": "EUR",
+      "VendorDescription": "Restaurant",
+      "Description": "Should be skipped by parser - not travel"
+    }
+  ]
+}
